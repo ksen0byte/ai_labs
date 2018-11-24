@@ -107,9 +107,9 @@ public class Main {
 
     private static List<Cluster> generateClusters() {
         return Arrays.asList(
-                generateCluster(150, 150, Color.CYAN),
-                generateCluster(500, 150, Color.BLUE),
-                generateCluster(175, 500, Color.lightGray)
+                generateCluster(300, 150, Color.CYAN),
+                generateCluster(150, 300, Color.BLUE),
+                generateCluster(500, 500, Color.lightGray)
         );
     }
 
